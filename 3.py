@@ -11,7 +11,7 @@ for s in a:
     b += s
 b = b.split()
 for l in b:
-    l.lower()
+    l = l.lower()
 c = list(set(b))
 wton = dict()
 ntow = dict()
@@ -29,3 +29,5 @@ for q in w:
 q = max(w)
 q = ntow[q]
 print(q)
+for key in wton:
+    print(key, wton[key])
